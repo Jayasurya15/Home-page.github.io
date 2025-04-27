@@ -78,28 +78,29 @@ h2 {
 }
 
 .project-item {
-  margin: 10px 0;
+  margin: 15px 0;
 }
 
 .project-item p {
   margin: 5px 0;
+  font-size: 1.1rem;
 }
 
 .project-item a.btn {
   display: inline-block;
-  padding: 10px 20px;
-  background: linear-gradient(45deg, #ff6b6b, #f94d6a);
-  color: white;
   text-decoration: none;
-  font-weight: 600;
-  border-radius: 5px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  padding: 12px 20px;
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+  color: white;
+  font-weight: bold;
+  border-radius: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .project-item a.btn:hover {
-  transform: scale(1.05);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
 }
 
 /* Responsive Design */
@@ -119,6 +120,6 @@ h2 {
 
   .project-item a.btn {
     font-size: 0.9rem;
-    padding: 8px 15px;
+    padding: 10px 15px;
   }
 }
