@@ -1,12 +1,14 @@
+/* General Styles */
 body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: white;
   background: black;
 }
 
+/* Starry Background */
 .stars, .stars2, .stars3 {
   position: absolute;
   top: 0;
@@ -44,6 +46,7 @@ body {
   }
 }
 
+/* Content Styles */
 .content {
   position: absolute;
   top: 50%;
@@ -51,9 +54,22 @@ body {
   transform: translate(-50%, -50%);
   z-index: 1;
   text-align: center;
-  background: rgba(0, 0, 0, 0.5);
-  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px;
   border-radius: 10px;
+  max-width: 90%;
+  width: 600px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
 }
 
 .project-list {
@@ -65,11 +81,44 @@ body {
   margin: 10px 0;
 }
 
-.project-item a {
-  color: #00d4ff;
-  text-decoration: none;
+.project-item p {
+  margin: 5px 0;
 }
 
-.project-item a:hover {
-  text-decoration: underline;
+.project-item a.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: linear-gradient(45deg, #ff6b6b, #f94d6a);
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.project-item a.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  .content {
+    padding: 20px;
+    width: 90%;
+  }
+
+  .project-item a.btn {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
 }
