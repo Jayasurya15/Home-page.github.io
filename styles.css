@@ -1,7 +1,75 @@
 body {
-    width: 100vw;
-    height: 100vh;
-    margin: 0;
-    background: black;
-    overflow: hidden;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  color: white;
+  background: black;
+}
+
+.stars, .stars2, .stars3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background: transparent;
+  pointer-events: none;
+}
+
+.stars {
+  background: url('https://cdn.pixabay.com/photo/2014/04/03/10/07/stars-312047_1280.png') repeat;
+  animation: star-animation 50s linear infinite;
+}
+
+.stars2 {
+  background: url('https://cdn.pixabay.com/photo/2014/04/03/10/07/stars-312047_1280.png') repeat;
+  animation: star-animation 100s linear infinite;
+  opacity: 0.5;
+}
+
+.stars3 {
+  background: url('https://cdn.pixabay.com/photo/2014/04/03/10/07/stars-312047_1280.png') repeat;
+  animation: star-animation 150s linear infinite;
+  opacity: 0.2;
+}
+
+@keyframes star-animation {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-100%);
+  }
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.project-list {
+  list-style: none;
+  padding: 0;
+}
+
+.project-item {
+  margin: 10px 0;
+}
+
+.project-item a {
+  color: #00d4ff;
+  text-decoration: none;
+}
+
+.project-item a:hover {
+  text-decoration: underline;
 }
