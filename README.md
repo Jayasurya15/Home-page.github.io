@@ -1,6 +1,6 @@
 # My Projects Hub
 
-Welcome to **My Projects Hub**, a showcase of unique and interactive web projects that I've built! This repository serves as a central hub to explore and experience my creative experiments with web development.
+Welcome to **My Projects Hub**, a showcase of unique and interactive web projects that I've built! This repository serves as a central hub to explore and experience my creative experiments with web development, while also reflecting my growing interest in programming fundamentals and analytical thinking.
 
 ---
 
@@ -13,6 +13,8 @@ You can explore the live version of My Projects Hub here: [My Projects Hub](http
 ## 💡 About
 
 This project is designed to showcase some of my favorite web-based projects. The site provides a fun and interactive way to explore these projects, with a visually engaging starry background created using Three.js.
+
+Along with web development, this hub also represents my learning journey as a student who is gradually moving toward stronger programming foundations, logical problem-solving, and an interest in data analysis concepts.
 
 ---
 
@@ -53,7 +55,6 @@ Here are some of the projects you can find on My Projects Hub:
 ```plaintext
 ├── index.html       # Main HTML file
 ├── styles.css       # CSS for styling the website
-```
 
 ---
 
@@ -68,13 +69,16 @@ Here are some of the projects you can find on My Projects Hub:
 
 ## 🎯 Future Plans
 
-This README is a placeholder for now. I am currently a student, and as I grow and learn more about web development and GitHub, I plan to update this README with more detailed information. For now, this serves as a simple introduction to my work.
+This README is a placeholder for now. I am currently a student, and as I grow and learn more about web development, java, python, sql and GitHub, I plan to update this README with more detailed information. For now, this serves as a simple introduction to my work.
 
 ---
 
 ## 👨‍💻 About Me
 
-Hi! I'm **Jayasurya**, a student passionate about web development and creating fun, interactive projects. This repository is a reflection of my journey and experiments in programming.
+Hi! I'm **Jayasurya**, a student who enjoys building interactive web projects and learning core programming concepts. I am currently focusing on strengthening my fundamentals in C, Java, Python, and SQL, while exploring areas like data analysis, logical problem-solving, and databases.
+
+This repository reflects my learning journey as I prepare myself for internships and real-world development challenges, balancing web development with analytical and programming skills.
+
 
 ---
 
