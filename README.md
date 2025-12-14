@@ -55,6 +55,7 @@ Here are some of the projects you can find on My Projects Hub:
 ```plaintext
 ├── index.html       # Main HTML file
 ├── styles.css       # CSS for styling the website
+```
 
 ---
 
